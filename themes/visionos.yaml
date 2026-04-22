@@ -55,7 +55,7 @@ visionos:
   # Cards
   card-background-color: var(--secondary-background-color) # Data table background
   paper-listbox-background-color: var(--primary-background-color)
-  ha-card-border-radius: 8px
+  ha-card-border-radius: 20px
   paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: rgb(10, 10, 10) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0 # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
@@ -84,7 +84,7 @@ visionos:
   app-header-edit-background-color: rgba(0, 0, 0, 0.2)
   # Colors
   red-color: "#FF453A"
-  pink-color: "#FF375F"
+  pink-color: "#c75a85"
   purple-color: "#BF5AF2"
   indigo-color: "#5E5CE6"
   blue-color: "#0A84FF"
@@ -93,13 +93,13 @@ visionos:
   teal-color: "#6AC4DC"
   green-color: "#32D74B"
   yellow-color: "#FFD60A"
-  orange-color: "#FF9F0A"
+  orange-color: "#C75A85"
   brown-color: "#AC8E68"
   primary-color: var(--pink-color)
-  ha-color-primary-05: "#331f00"
-  ha-color-primary-10: "#663d00"
-  ha-color-primary-20: "#995c00"
-  ha-color-primary-30: "#cc7a00"
+  ha-color-primary-05: "#330011"
+  ha-color-primary-10: "#660033"
+  ha-color-primary-20: "#990055"
+  ha-color-primary-30: "#cc0080"
   ha-color-primary-40: var(--primary-color)
   ha-color-primary-50: "#c75a85"
   ha-color-primary-60: "#cf6b95"
@@ -137,10 +137,10 @@ visionos:
   # Dropdown
   wa-border-style: none
   wa-shadow-m: var(--ha-card-box-shadow)
-  wa-border-radius-s: 8px
+  wa-border-radius-s: 16px
   wa-border-radius-m: var(--ha-card-border-radius)
   ha-color-on-neutral-normal: var(--primary-text-color) # icon color
-  wa-color-neutral-fill-normal: "#FFFFFF14" # hover color
+  wa-color-neutral-fill-normal: "#c75a85" # hover color
   ha-color-form-background: var(--ha-card-background)
   ha-color-form-background-hover: var(--ha-card-background)
   ha-color-form-background-disabled: var(--ha-card-background)
